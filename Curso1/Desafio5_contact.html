@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <header>
+    <nav>
+      <a href="Desafio5.html"><img src="./imgs/logo.png" alt="" /></a> |
+      <a href="Desafio5_naves.html">The Spaceships</a> |
+      <a href="Desafio5_contact.html">Hire Us</a>
+    </nav>
+    <hr />
+  </header>
+  <body>
+    <div>
+      <h3>Hire Us Now</h3>
+      <p>
+        Leave a message to request one of our services and we will contact u
+        soon.
+      </p>
+
+      <form action="">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" /> -
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" />
+        <br /><br /><br />
+        <label for="SpaceShips">Spaceships:</label>
+        <select name="spaceships" id="SpaceShips">
+          <option value="Falcon9">Falcon 9</option>
+          <option value="Falcon_heavy">Falcon - Heavy</option>
+        </select>
+        |
+        <label for="typeof">Type of service:</label>
+        <input type="search" name="typeof" id="typeof" list="services" />
+        <datalist id="services" style="display: hidden">
+          <option value="loren1"></option>
+          <option value="loren2"></option>
+          <option value="loren3"></option>
+          <option value="loren4"></option>
+          <option value="loren5"></option>
+        </datalist>
+      </form>
+    </div>
+    <br /><br />
+    <div><input type="submit" value="Send a Message" /></div>
+  </body>
+</html>
