@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.menu {
+  background-color: black;
+  display: flex;
+  height: 5vh;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.text {
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  transition: 1s;
+}
+.text:hover {
+  border-color: red;
+}
