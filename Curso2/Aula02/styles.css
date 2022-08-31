@@ -1,0 +1,20 @@
+:root {
+  --amarelo: #f1c40f;
+  --azul: #2c3e50;
+  --vermelho: #e74c3c;
+}
+body {
+  background-color: var(--azul);
+  color: white;
+}
+div h3 {
+  color: var(--amarelo);
+}
+div h2 {
+  color: black;
+  background-color: var(--amarelo);
+  border: 5px solid black;
+}
+#astronomy-class {
+  color: var(--vermelho);
+}

@@ -1,0 +1,23 @@
+:root {
+  --data: #008080;
+  --posts: #fffafa;
+}
+.post-container {
+  width: 60%;
+  margin: 0 auto;
+  background-color: var(--posts);
+}
+.post {
+  padding: 20px 30px 20px 60px;
+}
+.date {
+  font-family: "Roboto";
+  color: var(--data);
+  font-weight: bold;
+}
+h1 {
+  font-family: "Montserrat";
+}
+.post-content {
+  font-family: "Open Sans";
+}
