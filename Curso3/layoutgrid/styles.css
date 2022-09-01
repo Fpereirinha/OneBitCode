@@ -8,8 +8,6 @@
   min-height: 100vh;
 }
 .item {
-  width: 200px;
-  height: 200px;
   border: 2px solid black;
   background-color: white;
   font-size: 30px;

@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 .container {
+  width: 100%;
   background-color: darkgray;
   min-height: 100vh;
   display: flex;
@@ -14,11 +15,18 @@
 }
 .item {
   width: 200px;
-  height: 200px;
   border: 2px solid black;
   background-color: white;
   font-size: 30px;
   display: flex;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+.container-principal {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
