@@ -1,0 +1,14 @@
+@mixin textStyle($color, $fontsize, $fontfamily)
+    color: $color
+    font-size: $fontsize
+    font-family: $fontfamily
+
+
+
+
+.text
+    h1
+        @include textStyle(#ff4043, 34px, Arial)
+
+    p
+        @include textStyle(blue, 24px, sans-serif)
