@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../sass/common/common.sass","../sass/variables/colors.sass","../sass/pages/cadastro.sass","../sass/pages/login.sass"],"names":[],"mappings":"AAAA;EACI;EACA;;;AACJ;EACI;EACA,kBCJO;EDKP;EACA;EACA;EACA;EACA;;;AEVJ;EFcI,OEbmB;EFcnB,WEdwB;EFexB,aEf8B;EFgB9B,aEhB0C;;;ACA1C;EHaA,OGZuB;EHavB,WGb8B;EHc9B,aGdoC;EHepC,aGf2C","file":"style.css"}
