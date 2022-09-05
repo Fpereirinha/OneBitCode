@@ -1,0 +1,18 @@
+*
+    margin: 0
+    padding: 0
+
+@function color-title($backgroundcolor)
+    @if(lightness($backgroundcolor) > 50)
+        @return black
+    @else 
+        @return white
+    
+@mixin color($color)
+    background-color: $color
+    color: color-title($color)
+
+.title
+    height: 100vh
+    @include color(white)
+    
