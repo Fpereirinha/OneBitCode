@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS BOOTSTRAP -->
+    <!--D-FLEX     PY PX     MX MY    PT PB     PS PE.... FLUID-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./imgs/FAVICON-SPACEX.png"
+      type="image/x-icon"
+    />
+    <title>Landing Page</title>
+  </head>
+  <body class="pt-5">
+    <div class="container px-4 container1">
+      <div class="text-center">
+        <img
+          src="./imgs/logoOneBitDark.png"
+          alt=""
+          class="img-fluid logoOneBitDark py-4"
+        />
+      </div>
+      <p class="paragraph">1 - Qual seu nome?</p>
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">Primeiro nome:</span>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Digite aqui"
+          aria-label="Username"
+          ,
+          aria-describedby="basic-addon1"
+        />
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">Segundo nome:</span>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Digite aqui"
+          aria-label="Username"
+          ,
+          aria-describedby="basic-addon1"
+        />
+      </div>
+      <p class="paragraph mt-3">2 - Qual seu gênero?</p>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="exampleRadios"
+          id="exampleRadios1"
+          value="Homem"
+          checked
+        />
+        <label class="form-check-label" for="exampleRadios1"> Homem </label>
+      </div>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="exampleRadios"
+          id="exampleRadios2"
+          value="Mulher"
+        />
+        <label class="form-check-label" for="exampleRadios2"> Mulher </label>
+      </div>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="exampleRadios"
+          id="exampleRadios3"
+          value="não-informar"
+        />
+        <label class="form-check-label" for="exampleRadios3">
+          Prefiro não informar
+        </label>
+      </div>
+      <p class="paragraph mt-3">3 - Marque os treinamentos que você fez:</p>
+      <div class="form-check form-switch">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          role="switch"
+          id="flexSwitchCheckDefault"
+        />
+        <label class="form-check-label" for="flexSwitchCheckDefault"
+          >Treinamento básico de astronauta</label
+        >
+      </div>
+      <div class="form-check form-switch">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          role="switch"
+          id="flexSwitchCheckDefault"
+        />
+        <label class="form-check-label" for="flexSwitchCheckDefault"
+          >Treinamento físico básico</label
+        >
+      </div>
+      <div class="form-check form-switch">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          role="switch"
+          id="flexSwitchCheckDefault"
+        />
+        <label class="form-check-label" for="flexSwitchCheckDefault"
+          >Treinamento avançado de astronauta</label
+        >
+      </div>
+      <div class="form-check form-switch">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          role="switch"
+          id="flexSwitchCheckDefault"
+        />
+        <label class="form-check-label" for="flexSwitchCheckDefault"
+          >Treinamento físico intenso</label
+        >
+      </div>
+      <p class="mt-3 paragraph">4 - Quais são suas qualidades?</p>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="inlineCheckbox1"
+          value="proativo"
+        />
+        <label class="form-check-label" for="inlineCheckbox1">Proativo</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="inlineCheckbox2"
+          value="resistente"
+        />
+        <label class="form-check-label" for="inlineCheckbox2">Resistente</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="inlineCheckbox3"
+          value="não vomito facil"
+        />
+        <label class="form-check-label" for="inlineCheckbox3"
+          >Não vomito fácil</label
+        >
+      </div>
+      <div>
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            id="inlineCheckbox4"
+            value="não-temer"
+          />
+          <label class="form-check-label" for="inlineCheckbox4"
+            >Não temo marciano</label
+          >
+        </div>
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            id="inlineCheckbox5"
+            value="Já-viu"
+          />
+          <label class="form-check-label" for="inlineCheckbox5"
+            >Já vi todos os star wars</label
+          >
+        </div>
+        <div class="text-center">
+          <button type="button" class="btn btn-outline-danger my-4">
+            Enviar
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center footer mt-3">
+      <p>Feito por Pedro Fernandes &copy; 2022</p>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
