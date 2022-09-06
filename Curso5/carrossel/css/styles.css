@@ -1,0 +1,8 @@
+.c1 {
+  width: 1000px;
+  height: 1000px;
+  display: flex;
+  background-color: aqua;
+  flex-direction: column;
+  justify-content: center;
+}
