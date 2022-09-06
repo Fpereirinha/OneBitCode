@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+.footer {
+  background-color: black;
+  color: white;
+  font-size: 12px;
+}
+
+.copyPedro {
+  color: #555252;
+}
+
+.copylink:hover {
+  color: #b9b9b9;
+}
+
+.copylink {
+  text-decoration: none;
+  color: white;
+}
+
+.logo-pc {
+  width: 250px;
+}
+
+#HeaderAncor:hover {
+  color: #b9b9b9;
+}
+
+@media screen and (max-width: 405px) {
+  .logo-pc {
+    width: 180px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .logo-pc {
+    width: 150px;
+  }
+}
+.container00 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.container01 {
+  background-image: url(../imgs/home/01.jpg);
+}
+
+.container02 {
+  background-image: url(../imgs/home/03.jpg);
+}
+
+.container03 {
+  background-image: url(../imgs/home/02.gif);
+}
+
+.container04 {
+  background-image: url(../imgs/home/04.jpg);
+}
+
+.header {
+  font-size: 16px;
+}
+
+.arrowDown {
+  display: inline-block;
+  width: 90px;
+}
+
+.TitlePadding {
+  padding-top: 200px;
+  font-weight: bold;
+}
+
+.shortTitle {
+  width: 550px;
+  font-weight: bold;
+}
+
+.mediumTitle {
+  width: 650px;
+  margin-bottom: -25px;
+  font-weight: bold;
+}
+
+#button {
+  padding: 15px 35px;
+}
+
+.titleprincipal {
+  font-weight: bold;
+}
+
+@media (max-width: 750px) {
+  .TitlePadding {
+    padding-top: 120px;
+  }
+  .shortTitle, .mediumTitle {
+    width: auto;
+    font-size: 50px;
+  }
+}
+@media (max-width: 380px) {
+  .shortTitle, .mediumTitle {
+    width: auto;
+    font-size: 35px;
+  }
+}
+* {
+  font-family: Rubik;
+  font-weight: 800;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
