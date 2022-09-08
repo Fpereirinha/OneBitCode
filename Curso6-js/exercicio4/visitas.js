@@ -6,7 +6,7 @@ while (true) {
   if (prompt("ja visitou alguma cidade ?") == "Sim") {
     cidade = prompt("Qual cidade ?");
     city_list.push(cidade);
-    count += 1;
+    count++;
   } else {
     break;
   }
