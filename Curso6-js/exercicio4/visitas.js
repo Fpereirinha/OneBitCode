@@ -7,7 +7,7 @@ while (true) {
     prompt(
       count == 0
         ? "Você já visitou alguma cidade ?"
-        : "Qual a outra cidade visitada?"
+        : "Já visitou outra cidade ?"
     ) == "Não"
   ) {
     break;
