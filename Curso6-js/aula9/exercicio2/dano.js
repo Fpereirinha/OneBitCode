@@ -6,14 +6,12 @@ let person2_defense = prompt("Digite a defesa do personagem 2");
 let person2_shield = prompt(
   "O personagem possui escudo ? 1 para sim, 2 para não."
 );
-let damage;
+let damage = 0;
 if (person1_damage > person2_defense) {
   damage =
     person2_shield == 2
       ? person1_damage - person2_defense
       : (person1_damage - person2_defense) / 2;
-} else {
-  damage = 0;
 }
 person2_life -= damage;
 alert(
