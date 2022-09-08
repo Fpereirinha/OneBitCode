@@ -1,10 +1,10 @@
 let resposta;
 do {
   resp = prompt(`Qual a opção desejada ?\n
-    1 - xxx\n
-    2 - xxx\n
-    3 - xxx\n
-    4 - xxx\n
+    1 - xxx
+    2 - xxx
+    3 - xxx
+    4 - xxx
     5 - encerrar`);
   alert(`Opção escolhida ${resp}`);
 } while (resp != 5);
