@@ -3,13 +3,18 @@ let count = 0;
 let city_list = [];
 
 while (true) {
-  if (prompt("ja visitou alguma cidade ?") == "Sim") {
-    cidade = prompt("Qual cidade ?");
-    city_list.push(cidade);
-    count++;
-  } else {
+  if (
+    prompt(
+      count == 0
+        ? "Você já visitou alguma cidade ?"
+        : "Qual a outra cidade visitada?"
+    ) == "Não"
+  ) {
     break;
   }
+  cidade = prompt("Qual cidade ?");
+  city_list.push(cidade);
+  count++;
   if (prompt("Quer continuar ?") == "Não") {
     break;
   }
