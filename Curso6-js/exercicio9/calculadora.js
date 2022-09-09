@@ -13,8 +13,8 @@ while (opc !== 6) {
 	switch (opc) {
 		case 1:
 			resultado = area(
-				parseInt(prompt("Qual o valor da base ?")),
-				parseInt(prompt("Qual o valor da altura ?")),
+				input("Qual o valor da base ?"),
+				input("Qual o valor da altura ?"),
 				opc
 			);
 			alert(`O resultado é ${resultado}`);
