@@ -21,27 +21,27 @@ while (opc !== 6) {
 			break;
 		case 2:
 			resultado = area(
-				parseInt(prompt("Qual o valor da base ?")),
-				parseInt(prompt("Qual o valor da altura ?")),
+				input("Qual o valor da base ?"),
+				input("Qual o valor da altura ?"),
 				opc
 			);
 			alert(`O resultado é ${resultado}`);
 			break;
 		case 3:
-			resultado = area(parseInt(prompt("Qual o valor do lado ?")), "", opc);
+			resultado = area(input("Qual o valor do lado ?"), "", opc);
 			alert(`O resultado é ${resultado}`);
 			break;
 		case 4:
 			resultado = area(
-				parseInt(prompt("Qual o valor da base maior?")),
-				parseInt(prompt("Qual o valor da base menor?")),
+				input("Qual o valor da base maior?"),
+				input("Qual o valor da base menor?"),
 				opc,
-				parseInt(prompt("Qual o valor da altura?"))
+				input("Qual o valor da altura?")
 			);
 			alert(`O resultado é ${resultado}`);
 			break;
 		case 5:
-			resultado = area(parseInt(prompt("Qual o valor do raio ?")), "", 5);
+			resultado = area(input("Qual o valor do raio ?"), "", 5);
 			alert(`O resultado é ${resultado}`);
 			break;
 		case 6:
@@ -67,4 +67,7 @@ function area(value1, value2 = value1, changer = 0, altura = 0) {
 		default:
 			return "Valor inválido.";
 	}
+}
+function input(mensagem) {
+	return parseInt(prompt(mensagem));
 }
