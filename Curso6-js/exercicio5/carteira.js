@@ -19,6 +19,9 @@ do {
     } else {
       alert("Não foi possivel subtrair, o saldo é menor do que o valor.");
     }
+  } else if (resp == 3) {
+    alert(`Programa encerrado, valor atual do saldo ${saldo}`);
+  } else {
+    alert("Opção inválida.");
   }
 } while (resp != 3);
-alert(`Programa encerrado, valor atual do saldo ${saldo}`);
