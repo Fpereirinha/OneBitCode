@@ -73,7 +73,8 @@ function Visualizar(lista) {
     Descrição: ${item.descrição}
     Data limite: ${item.Data}
     Quantidade de candidatos: ${item.candidatos.length}
-    Candidatos: ${item.candidatos}`);
+    Candidatos: 
+    ${item.candidatos}`);
 }
 function Subscription(lista) {
 	let candidato = input("Qual o nome do candidato ?", 1);
