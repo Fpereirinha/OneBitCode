@@ -7,5 +7,22 @@
 		<title>Eventos</title>
 		<script src="./eventos.js"></script>
 	</head>
-	<body></body>
+	<body>
+		<p>
+			<button onclick="clickMe()">Clique-me</button>
+		</p>
+		<p>
+			Focus
+			<input type="text" onfocus="focusMe()" name="focus-text" />
+		</p>
+		<p>
+			Blur
+			<input type="text" name="blur-text" onblur="blurMe()" />
+		</p>
+		<p>
+			Change
+			<input type="text" name="change-text" onchange="changeMe()" />
+		</p>
+		<p onmouseover="overMe()">Passe o moouse sobre mim.</p>
+	</body>
 </html>
