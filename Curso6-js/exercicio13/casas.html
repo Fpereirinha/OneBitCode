@@ -8,8 +8,6 @@
 		<script src="./casas.js"></script>
 	</head>
 	<body>
-		<button>Nova Casa</button>
-		<button>Remover Casa</button>
 		<form id="casas">
 			<p>
 				<label for="">Numero da residencia 1: </label>
@@ -27,6 +25,8 @@
 				<label for="">Area da residencia 1: </label>
 				<input type="text" name="area" />
 			</p>
+			<button onclick="saveHouse()" type="button">Salvar</button>
 		</form>
+		<ul id="house-list"></ul>
 	</body>
 </html>
