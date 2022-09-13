@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>imoveis</title>
+		<script src="./index.js"></script>
+		<script src="./app.js"></script>
+		<script src="./main.js"></script>
+		<style>
+			.alugada {
+				background-color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 id="eleisio">Cadastro de imoveis</h1>
+		<form id="casa" onsubmit="app.addProp()">
+			<p>
+				<label for="">Tipo</label>
+				<select name="kind" id="">
+					<option value="apartamento">apartamento</option>
+					<option value="casa">casa</option>
+				</select>
+			</p>
+			<p>
+				<label for="">area</label>
+				<input type="number" name="area" id="" />
+			</p>
+			<p><input type="checkbox" name="rented" id="" /> Alugado</p>
+			<button type="submit">Salvar</button>
+			<button type="button" onclick="app.clean()">Limpar</button>
+		</form>
+		<h1>imoveis cadastrados</h1>
+		<ul id="lista"></ul>
+	</body>
+</html>
