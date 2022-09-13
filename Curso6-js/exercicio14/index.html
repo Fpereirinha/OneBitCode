@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>imoveis</title>
+		<script src="./index.js"></script>
+		<style>
+			.alugada {
+				background-color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 id="eleisio"></h1>
+		<form id="casa">
+			<p>
+				<label for="">Tipo</label>
+				<input type="text" name="tipo" id="" />
+			</p>
+			<p>
+				<label for="">area</label>
+				<input type="text" name="area" id="" />
+			</p>
+			<p>
+				<label for="">alugado?</label>
+				<select name="alugado" id="">
+					<option value="sim">sim</option>
+					<option value="não">não</option>
+				</select>
+			</p>
+			<button type="button" onclick="save()">Salvar</button>
+		</form>
+		<ul id="lista"></ul>
+	</body>
+</html>
