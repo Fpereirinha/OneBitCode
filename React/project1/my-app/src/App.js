@@ -1,4 +1,4 @@
-import FirstComponent from "./Hello";
+import { FirstComponent } from "./Hello";
 function App() {
 	return (
 		<div className="App">
