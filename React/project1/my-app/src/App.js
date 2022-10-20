@@ -1,12 +1,9 @@
-import { FirstComponent } from "./Hello";
-import Lorem from "./components/loremp";
+import Planets from "./components/planets";
 function App() {
 	return (
-		<div className="App">
-			<FirstComponent />
-			<Lorem />
+		<div>
+			<Planets />
 		</div>
 	);
 }
-
 export default App;
