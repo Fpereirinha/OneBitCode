@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import "./index.sass";
+import GrayImg from "../../shared/gray-img";
 export default function Planet() {
 	return (
 		<div className="planet_container">
@@ -9,7 +10,7 @@ export default function Planet() {
 					Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem
 					IpsumLorem IpsumLorem Ipsum
 				</p>
-				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Mercury_in_color_-_Prockter07-edit1.jpg/280px-Mercury_in_color_-_Prockter07-edit1.jpg"></img>
+				<GrayImg />
 			</div>
 		</div>
 	);
