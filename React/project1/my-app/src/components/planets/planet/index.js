@@ -4,7 +4,7 @@ import Description from "../../shared/descriptionwlink";
 export default function Planet(props) {
 	return (
 		<div className="planet_container">
-			<div className="planet">
+			<div className="planet" onClick={() => props.click(props.name)}>
 				<h4>{props.name}</h4>
 				<Description Description={props.description} link={props.link} />
 				<GrayImg img_url={props.img_url} />
